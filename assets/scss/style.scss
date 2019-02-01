@@ -17,17 +17,22 @@ main{
 
     
 }
+
+
 .contenair{
-    
+        
      
      border-radius: 5px; 
-     border: 2px gainsboro solid;
+    
      :hover{
         background-color: gainsboro;
         color: black;
         cursor: pointer;
-        transform: scale(1.5);
-        transition: 1.5s;
+        transform: translateX(200px);
+        transition: 2s;
+
+        
+        
 
     }
 }
@@ -37,6 +42,8 @@ button{  padding: 30px;
     border: 1px whitesmoke solid;
     align-items: center;
     background-color: black;
+    
+    
   
     a{
         color: white;
